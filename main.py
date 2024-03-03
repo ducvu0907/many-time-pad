@@ -59,7 +59,16 @@ def find_chars(cipher, idx):
 for i in range(len(ciphers)):
   find_chars(ciphers[i], 2)
 
-with open("output.txt", 'a') as file:
-  file.write(''.join(answer) + '\n')
+# with open("output.txt", 'a') as file:
+#   file.write(''.join(answer) + '\n')
 
-# result: The secret message is when using stream cipher never use the key more than once
+# -> the message is "The secret message is when using a stream cipher never use the key more than once"
+
+# modify the message to decrypt some the other ciphertexts too
+plaintext = 'The secret message is  When using a stream cipher  never use the key more than once'
+plaintext_hex = ''.join(hex(ord(c))[2:] for c in plaintext)
+
+key = xor_ciphers(plaintext_hex, target)
+cipher1 = bytes.fromhex(ciphers[1])
+result = bytes([a ^ b for a, b in zip(key, cipher1)])
+print(result.decode('ascii'))

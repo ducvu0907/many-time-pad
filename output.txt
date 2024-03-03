@@ -68,9 +68,9 @@ tHMESECUETSMESZAGE.ISYTw..NRUSANWEWSSTRE.MNCIPHERETNEVIR.USEATHEOKEYWM.RENTHANRO
 .....E..E..M..S.....S......QU..N......RE.......E..E..V.R.U.......K...M..E.......N..
 tH..SE.UET.ME.SAG..IS..w...RUSIN..W.STRE.M.CIPHER.T.EV.R.U.E.TH..KEY.M.RE..HAN.ON..
 tH__SE_UET_ME_SAG__IS__w__.TUSIN__A_STRE_M_CIPHER.C_EV_R_U_E_TH__KEY_M_RE__HAN_ON__
-tH__SE_UET_ME_SAG__IS__w__.TUSIN__A_STRE_M_CIPHER.C_EV_R_U_E_TH__KEY_M_RE__HAN_ON__tH..SE.UET.ME.SAG..IS..w...TUSIN..A.STRE.M.CIPHER.C.EV.R.U.E.TH..KEY.M.RE..HAN.ON..
+tH__SE_UET_ME_SAG__IS__w__.TUSIN__A_STRE_M_CIPHER.C_EV_R_U_E_TH__KEY_M_RE__HAN_ON__
 tH..SE.UET.ME.SAG..IS..w...TUSIN..A.STRE.M.CIPHER.C.EV.R.U.E.TH..KEY.M.RE..HAN.ON..
 tHE.S.CUET..ESSAGE.I...wHT..USI.G.AASTR.AM.CIPH.R..NEVE...SE.THEFKEY.M.REETHAN.O...
 tHECSECU.T.MES.AGE.I...wH.N..SI.G.AAST.EAM.CIPHER..NE.ER..SE.TH...EY..OR..THANBONCT
 
--> The secret message is  When using a stream cipher nerver use the key more than once
+-> The secret message is when using a stream cipher never use the key more than once
